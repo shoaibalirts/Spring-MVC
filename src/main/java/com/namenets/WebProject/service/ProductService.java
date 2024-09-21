@@ -13,4 +13,9 @@ public class ProductService {
     public List<Product> getProducts(){
         return products;
     }
+
+    public Product getProductById(int prodId) {
+        return products.stream().filter(p -> p.getProdId()==prodId).findFirst().get();
+    }
+
 }

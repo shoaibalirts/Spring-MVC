@@ -1,7 +1,7 @@
 package com.namenets.WebProject.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Data; // it contains all getters and setters as well as constructors
 
 @Data
 @AllArgsConstructor
